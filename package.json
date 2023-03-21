@@ -18,31 +18,17 @@
     "ssr",
     "serverside-rendering"
   ],
-  "author": {
-    "name": "Andrew Dassonville",
-    "email": "dassonville.andrew@gmail.com"
-  },
+  "author": "Andrew Dassonville <dassonville.andrew@gmail.com>",
   "contributors": [
-    {
-      "name": "Chris Fritz",
-      "email": "chrisvfritz@gmail.com",
-      "url": "https://twitter.com/chrisvfritz"
-    },
-    {
-      "name": "Drew Lustro",
-      "url": "https://drewlustro.com/"
-    },
-    {
-      "name": "Joshua Bemenderfer",
-      "email": "tribex10@gmail.com",
-      "url": "https://joshderf.com/"
-    },
-    {
-      "name": "qkdreyer",
-      "email": "quentin.dreyer@gmail.com"
-    }
+    "Chris Fritz <chrisvfritz@gmail.com> (https://twitter.com/chrisvfritz)",
+    "Drew Lustro (https://drewlustro.com/)",
+    "Joshua Bemenderfer <tribex10@gmail.com> (https://joshderf.com/)",
+    "qkdreyer <quentin.dreyer@gmail.com>"
   ],
-  "repository": "andrewda/prerender-spa-plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrewda/prerender-spa-plugin.git"
+  },
   "bugs": {
     "url": "https://github.com/andrewda/prerender-spa-plugin/issues",
     "email": "dassonville.andrew@gmail.com"
@@ -77,5 +63,10 @@
   },
   "engines": {
     "node": ">=8.0.0"
+  },
+  "homepage": "https://github.com/andrewda/prerender-spa-plugin#readme",
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }
